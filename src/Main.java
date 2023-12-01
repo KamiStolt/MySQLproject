@@ -5,8 +5,8 @@ public class Main
         DBConnector connect = new DBConnector();
         //connect.readData();
 
-        String f="99";
-        connect.readName(f);
+
+        connect.readName();
 
     }
 }
