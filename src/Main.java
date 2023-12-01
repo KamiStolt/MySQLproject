@@ -3,10 +3,10 @@ public class Main
     public static void main(String[] args)
     {
         DBConnector connect = new DBConnector();
-        //connect.readData();
+        connect.readData();
 
 
-        connect.readName();
+        //connect.readName(99);
 
     }
 }
